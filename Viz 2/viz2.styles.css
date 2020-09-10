@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(19, 11, 11);
+}
+
+
+
+svg{
+    border: 1px solid grey;
+}
+
+.map-container{
+    display:inline-block;
+}
+
+.line {
+    stroke-width: 1;
+    fill: none;
+    /* stroke:blue; */
+}
+
+.legend rect {
+    fill:none;
+    stroke:none;
+    opacity:0.8;
+}
+.axisWhite line{
+    stroke:white;
+}
+
+.axiswhite path{
+    stroke:white;
+}
+
+.axisWhite text{
+    fill:white;
+}  
+
+
+.bubbleLegend circle {
+    fill: none;
+    stroke: #b0b0b0;
+}
+
+.bubbleLegend text {
+    fill: none;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+}
